@@ -2,7 +2,8 @@
     "name": "mock-prover",
     "version": "0.0.1",
     "scripts": {
-        "server": "yarn tsx src/index.ts"
+        "server": "yarn tsx src/index.ts",
+        "build": "tsc"
     },
     "module": "commonjs",
     "dependencies": {
